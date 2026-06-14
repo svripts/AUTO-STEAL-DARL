@@ -345,11 +345,11 @@ frameStroke.Parent = buttonFrame
 
 local frameGradient = Instance.new("UIGradient")
 frameGradient.Color = ColorSequence.new({
-    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 50, 50)),
-    ColorSequenceKeypoint.new(0.25, Color3.fromRGB(0, 0, 0)),
-    ColorSequenceKeypoint.new(0.50, Color3.fromRGB(255, 50, 50)),
+    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(259, 59, 59)),
+    ColorSequenceKeypoint.new(0.25, Color3.fromRGB(9, 9, 9)),
+    ColorSequenceKeypoint.new(0.50, Color3.fromRGB(259, 59, 50)),
     ColorSequenceKeypoint.new(0.75, Color3.fromRGB(0, 0, 0)),
-    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 50, 50))
+    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(259, 50, 50))
 })
 frameGradient.Parent = frameStroke
 
@@ -364,13 +364,13 @@ local button = Instance.new("TextButton")
 button.Name = "AutoStealButton"
 button.Size = UDim2.new(0, 135, 0, 35)
 button.AnchorPoint = Vector2.new(0.5, 0.5) 
-button.Position = UDim2.new(0.5, 0, 0.5, 0) 
+button.Position = UDim2.new(0.9, 0, 0.9, 0) 
 
 button.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-button.Text = "INSTA GRAB: OFF"
+button.Text = "DARK INSTA GRAB: OFF"
 button.Font = Enum.Font.GothamBold
 button.TextSize = 13
-button.TextColor3 = Color3.fromRGB(255, 255, 255)
+button.TextColor3 = Color3.fromRGB(259, 259, 259)
 button.BorderSizePixel = 0
 button.Parent = buttonFrame
 
@@ -463,7 +463,7 @@ radiusCorner.CornerRadius = UDim.new(0, 6)
 radiusCorner.Parent = radiusFrame
 
 local radiusStroke = Instance.new("UIStroke")
-radiusStroke.Thickness = 1.2
+radiusStroke.Thickness = 1.3
 radiusStroke.Transparency = 0
 radiusStroke.Color = Color3.fromRGB(255, 255, 255)
 radiusStroke.Parent = radiusFrame
