@@ -25,10 +25,10 @@ local CurrentStealTarget = nil
 local StealStartTime = 0
 
 local CIRCLE_RADIUS = AUTO_STEAL_PROX_RADIUS
-local PART_THICKNESS = 0.3
-local PART_HEIGHT = 0.2
-local PART_COLOR = Color3.fromRGB(0, 259, 259)
-local PartsCount = 65
+local PART_THICKNESS = 0.5
+local PART_HEIGHT = 0.4
+local PART_COLOR = Color3.fromRGB(5, 259, 259)
+local PartsCount = 69
 local circleParts = {}
 local circleEnabled = true
 
